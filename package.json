@@ -1,0 +1,18 @@
+{
+  "name": "node_farm",
+  "version": "1.0.0",
+  "description": "This is a simple node.js node_farm project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Smon Sisay",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "slugify": "^1.6.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
