@@ -1,4 +1,4 @@
-const replaceTemplate = (temp, product) => {
+module.exports = (temp, product) => {
   let output = temp.replace(/%name%/g, product.productName);
   output = output.replace(/%image%/g, product.image);
   output = output.replace(/%vitamin%/g, product.nutrients);
@@ -12,4 +12,3 @@ const replaceTemplate = (temp, product) => {
 
   return output;
 };
-module.exports = replaceTemplate;
